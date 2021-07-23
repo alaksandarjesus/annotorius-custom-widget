@@ -31,9 +31,16 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/@recogito/annotorious/dist/annotorious.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "allowedCommonJsDependencies": [
+              "@recogito/annotorious-openseadragon",
+              "lodash",
+              "openseadragon"
+           ]
           },
           "configurations": {
             "production": {
